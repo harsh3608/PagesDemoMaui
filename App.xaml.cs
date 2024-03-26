@@ -7,7 +7,15 @@
             InitializeComponent();
 
             //MainPage = new AppShell();
-            MainPage = new NavigationPage(new MainPage());
+
+
+            var navPage = new NavigationPage(new MainPage());
+
+            navPage.BarBackgroundColor = Colors.Black;
+            navPage.BarTextColor = Colors.White;    
+
+
+            MainPage = navPage;
 
         }
     }
