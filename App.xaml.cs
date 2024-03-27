@@ -16,7 +16,7 @@
 
             //MainPage = navPage;
 
-            MainPage = new FlyoutPageDemo();
+            MainPage = new TabbedPageDemo();
 
         }
     }
