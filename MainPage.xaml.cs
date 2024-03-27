@@ -20,7 +20,8 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
 
-            Navigation.PushAsync(new ContentPageDemo());
+            //Navigation.PushAsync(new ContentPageDemo());
+           // Navigation.PushAsync(new FlyoutPageDemo());
         }
     }
 

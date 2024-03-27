@@ -10,7 +10,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Entry TextColor="White"/>
-        <Button Text="Click me!" Clicked="Button_Clicked"/>
+        <!--<Button Text="Click me!" Clicked="Button_Clicked"/>-->
 
     </VerticalStackLayout>
 </ContentPage>

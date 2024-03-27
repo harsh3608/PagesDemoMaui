@@ -7,8 +7,8 @@ public partial class ContentPageDemo : ContentPage
 		InitializeComponent();
 	}
 
-	public void Button_Clicked(object sender, EventArgs e)
-	{
-		Navigation.PushAsync(new MainPage());
-	}
+	//public void Button_Clicked(object sender, EventArgs e)
+	//{
+	//	Navigation.PushAsync(new MainPage());
+	//}
 }
